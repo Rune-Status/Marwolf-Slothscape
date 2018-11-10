@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AntConfiguration">
+    <buildFile url="file://$PROJECT_DIR$/build.xml" />
+  </component>
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+    </profile>
+    <version value="1.0" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/server.iml" filepath="$PROJECT_DIR$/server.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+  </component>
+  <component name="libraryTable">
+    <library name="lib">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.40.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/xstream-1.4.9.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/disruptor-3.3.5.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/commons-lang-2.6.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/xpp3-1.1.4c.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/xpp3_min-1.1.4c.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/netty-all-4.1.8.Final.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/log4j-api-2.8.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/log4j-core-2.8.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="server">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/plugins.jar!/" />
+        <root url="jar://$PROJECT_DIR$/core.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
+</project>

@@ -1,4 +1,4 @@
-# Open RSC
+# Slothscape
 ###### [![Build Status](https://travis-ci.org/Open-RSC/Game.svg?branch=2.0.0)](https://travis-ci.org/Open-RSC/Game)
 
 # Table of contents <a name="top"></a>
@@ -14,7 +14,7 @@
 
 Note: This requires Java 9 or newer to be installed. Java 8 does not support DPI scaling.
 
-1. Launch the Open RSC game client
+1. Launch the Slothscape game client
 
 2. Open task manager (CTRL + ALT + DEL)
 
@@ -28,7 +28,7 @@ Note: This requires Java 9 or newer to be installed. Java 8 does not support DPI
 
 7. Set this: <img src="https://i.imgur.com/5gJqSMr.png"/>
 
-8. Re-launch the Open RSC game client
+8. Re-launch the Slothscape game client
 
 [Return to top](#top)
 ___
@@ -86,7 +86,7 @@ ___
 
 ## Hosting Your Own Server<a name="hosting"></a>
 
-For those who want to host their own Open RSC server, you can get $100 in DigitalOcean credit that is good for 60 days: https://m.do.co/c/be6a177e6664
+For those who want to host their own Slothscape server, you can get $100 in DigitalOcean credit that is good for 60 days: https://m.do.co/c/be6a177e6664
 
 We believe security is the most important part of running a server and suggest the following Droplet firewall configuration if you use DigitalOcean: <img src="https://i.imgur.com/Lpal89h.png"/>
 

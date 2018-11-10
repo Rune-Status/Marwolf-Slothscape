@@ -102,7 +102,7 @@ public class AppFrame extends JFrame {
     private void addButtons() {
         this.bg.add(new LinkButton("Forum", new Rectangle(27, 480, 119, 40)));
         this.bg.add(new LinkButton("Bug Reports", new Rectangle(158, 480, 119, 40)));
-        this.bg.add(new LinkButton("Report Bots", new Rectangle(288, 480, 119, 40)));
+        this.bg.add(new LinkButton("Calendar", new Rectangle(288, 480, 119, 40)));
         this.bg.add(new LinkButton("Discord", new Rectangle(418, 480, 119, 40)));
         this.bg.add(new LinkButton("GitHub", new Rectangle(548, 480, 119, 40)));
         (this.launch = new LaunchButton()).setBounds(797, 481, 174, 69);

@@ -21,8 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `openrsc_game`
 --
-CREATE DATABASE IF NOT EXISTS `openrsc_game` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `openrsc_game`;
+CREATE DATABASE IF NOT EXISTS `slothscape_game` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `slothscape_game`;
 
 -- --------------------------------------------------------
 

@@ -15,23 +15,23 @@ public class ButtonListener implements ActionListener {
         final String action = event.getActionCommand().toLowerCase();
         switch (action) {
             case "forum": {
-                Utils.openWebpage(Constants.BASE_URL + "/elite/board");
+                Utils.openWebpage(Constants.BASE_URL + "board");
                 return;
             }
             case "bug reports": {
                 Utils.openWebpage("https://goo.gl/forms/nnhSln7S81l4I26t2");
                 return;
             }
-            case "report bots": {
-                Utils.openWebpage("https://goo.gl/forms/AkBzpOzgAmzWiZ8H2");
+            case "calendar": {
+                Utils.openWebpage(Constants.BASE_URL + "calendar");
                 return;
             }
             case "discord": {
-                Utils.openWebpage("https://discord.gg/atX3Ruy");
+                Utils.openWebpage("https://discord.gg/94vVKND");
                 return;
             }
             case "github": {
-                Utils.openWebpage("https://github.com/Open-RSC/Game");
+                Utils.openWebpage("https://github.com/Open-RSC/Slothscape");
                 return;
             }
             case "minimize": {

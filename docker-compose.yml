@@ -1,0 +1,51 @@
+version: '3.1'
+services:
+
+    nginx:
+        image: nginx:1.15.3-alpine-perl
+        container_name: nginx
+        volumes:
+            - "./etc/nginx:/etc/nginx/conf.d"
+            - "./Website:/var/www/html"
+            - "./server/avatars:/var/www/html/avatars"
+            - "./etc/nginx/logs:/var/log/nginx"
+            - "./etc/letsencrypt:/etc/letsencrypt"
+        ports:
+            - "80:80"
+            - "443:443"
+        environment:
+            - NGINX_HOST=${NGINX_HOST}
+        restart: always
+        depends_on:
+            - mysqldb
+
+    php:
+        image: nanoninja/php-fpm
+        container_name: php
+        ports:
+            - "127.0.0.1:9000:9000"
+        volumes:
+            - "./etc/php/php.ini:/usr/local/etc/php/conf.d/php.ini"
+            - "./Website:/var/www/html"
+
+    mysqldb:
+        image: mariadb:latest
+        container_name: mysql
+        restart: always
+        env_file:
+            - ".env"
+        command: [
+            '--wait_timeout=360000',
+            ]
+        environment:
+            - MYSQL_DATABASE=mysql
+            - MYSQL_ROOT_USER=${MARIADB_ROOT_USER}
+            - MYSQL_ROOT_PASSWORD=${MARIADB_ROOT_PASSWORD}
+            - MYSQL_ALLOW_EMPTY_PASSWORD=no
+            - MYSQL_USER=${MARIADB_USER}
+            - MYSQL_PASSWORD=${MARIADB_PASS}
+        ports:
+            - "3306:3306"
+        volumes:
+            - "./data/db/mysql:/var/lib/mysql"
+            - "./etc/mariadb/innodb.cnf:/etc/mysql/conf.d/innodb.cnf:ro"

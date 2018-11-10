@@ -9,7 +9,7 @@ import java.util.Properties;
 public class Config {
 	private static Properties prop = new Properties();
 
-	public static final String SERVER_NAME = "Open RSC";
+	public static final String SERVER_NAME = "Slothscape";
 	public static final String SERVER_IP = "localhost";
 	public static final int SERVER_PORT = 43594;
 	public static final int CLIENT_VERSION = 1;
@@ -17,12 +17,12 @@ public class Config {
 	public static final boolean MEMBERS_FEATURES = true;
 	public static final boolean CUSTOM_CACHE_DIR_ENABLED = false;
 	public static final boolean CACHE_APPEND_VERSION = false;
-	public static final String CUSTOM_CACHE_DIR = System.getProperty("user.home") + File.separator + "OpenRSC";
+	public static final String CUSTOM_CACHE_DIR = System.getProperty("user.home") + File.separator + "Slothscape";
 
 
 
 	public static boolean F_ANDROID_BUILD = false;
-	//public static String F_CACHE_DIR = System.getProperty("user.home") + File.separator + "OpenRSC";
+	//public static String F_CACHE_DIR = System.getProperty("user.home") + File.separator + "Slothscape";
     public static String F_CACHE_DIR = "";
 
 

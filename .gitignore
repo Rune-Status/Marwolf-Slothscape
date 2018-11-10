@@ -5,17 +5,21 @@ client/\.idea/
 client/\.gradle/
 client/build/
 client/*.jar
+client/out/
 
 Launcher/Cache/
 Launcher/.idea/
 Launcher/*.jar
+Launcher/out/
 
 server/avatars/
 server/*.jar
 server/.gradle/
 server/.idea/
+server/build/
+server/out/
 
-data/db/
+db/
 
 Tools/RSC Map Generator/dist/
 Tools/Sprite Editor/unpack/
@@ -28,3 +32,5 @@ Website/
 
 etc/nginx/logs/*.log
 gameserver.log
+
+Client/Cache/client\.properties

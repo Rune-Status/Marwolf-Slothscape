@@ -19,10 +19,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `openrsc_forum`
+-- Database: `slothscape_forum`
 --
-CREATE DATABASE IF NOT EXISTS `openrsc_forum` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `openrsc_forum`;
+CREATE DATABASE IF NOT EXISTS `slothscape_forum` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `slothscape_forum`;
 
 -- --------------------------------------------------------
 
